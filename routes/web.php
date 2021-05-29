@@ -16,11 +16,31 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages/index');
 });
+Route::get('/shop', function () {
+    return view('pages/shop');
+});
+Route::get('/login', function () {
+    return view('pages/login');
+});
+Route::get('/register', function () {
+    return view('pages/register');
+});
+Route::get('/contact', function () {
+    return view('pages/contact');
+});
+Route::get('/register2', function () {
+    return view('pages/register2');
+});
+Route::get('/register3', function () {
+    return view('pages/register3');
+});
+Route::get('/error', function () {
+    return view('pages/error');
+});
+// Auth::routes();
 
-Auth::routes();
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Auth::routes();
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
