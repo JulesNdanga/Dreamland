@@ -34,9 +34,22 @@ Route::get('/register2', function () {
 Route::get('/register3', function () {
     return view('pages/register3');
 });
+Route::get('/register4', function () {
+    return view('pages/register4');
+});
+Route::get('/reussi', function () {
+    return view('pages/reussi');
+});
+Route::get('/echec', function () {
+    return view('pages/echec');
+});
+
 Route::get('/error', function () {
     return view('pages/error');
 });
+
+
+
 // Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -198,7 +198,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumb-content text-center">
-                            <h2 class="text-light"> SUBSCRIPTION<span> FORM</span></h2>
+                            <h2 class="text-light"> PAYEMENT<span> FORM</span></h2>
 
                         </div>
                     </div>
@@ -216,7 +216,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-7">
                                 <div class="section-heading">
-                                    <h2 class="section-title">Identity information:</h2>
+                                    <h2 class="section-title">Payement:</h2>
                                 </div>
                             </div>
                         </div>
@@ -224,7 +224,7 @@
                             <div class="col-md-10">
                                 <div class="contact-form-wrap">
                                     <span class="text-center"
-                                        style="margin-left:48%; border:1px solid #007bff; border-radius:50%; font-size:25px; font-weight:bold; color:white;background-color:#007bff;">&nbsp;&nbsp;2&nbsp;&nbsp;
+                                        style="margin-left:48%; border:1px solid #007bff; border-radius:50%; font-size:25px; font-weight:bold; color:white;background-color:#007bff;">&nbsp;&nbsp;3&nbsp;&nbsp;
                                     </span>
                                     
                                     <div class="empty-form text-center" style="display: none;"><span>Please Fill Required
@@ -247,42 +247,10 @@
                                             number.Exp. 200-255-4444</span></div>
                 
                 
-                                    <form id="contactForm" action="Api/register3.php" method="post">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="contact-form-group">
-                                                    <input type="text" class="form-control" name="contact_email" id="contactEmail" placeholder="Your Email *"
-                                                        required>
-                                                    <i class="far fa-envelope"></i>
-                                                    <div class="form-validate-icons">
-                                                        <span></span>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                    <form id="contactForm" action="/monetbil/paiement/index.php" method="post">
+                                        <h2 class="text-center">You will make the payment of your subscription which is <strong> 5000 FCFA</strong></h2>
                                             
-                                            <div class="col-lg-6">
-                                                <div class="contact-form-group">
-                                                    <input type="text" class="form-control" name="contact_phone" id="contactPhone"
-                                                        placeholder="Phone Exp. +237659904512 *" required>
-                                                    <i class="fas fa-phone-volume"></i>
-                                                    <div class="form-validate-icons">
-                                                        <span></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="col-lg-6 ">
-                                                <div class="contact-form-group">
-                                                    <input type="file" class="form-control" name="photo" id="photo"
-                                                        placeholder="Photo of your National Identity Card:" accept="image/*" required>
-                                                    <i class="far fa-id-badge"></i>
-                                                    <div class="form-validate-icons">
-                                                        <span></span>
-                                                    </div>
-                                                    <label for="photo">Photo of your National Identity Card *</label>
-                                                </div>
-                                            </div>
-                                            
+                                           
                                             
                                             <div class="col-lg-6">
                                                 <div class="contact-form-group">
@@ -297,8 +265,8 @@
                                             </div>
                                            
                                             <div class="col-lg-12">
-                                               <div class="float-right">
-                                                    <button type="submit" id="contactBtn" class="default-button">NEXT</button>
+                                                <div class="float-right">
+                                                    <button type="submit" id="contactBtn" class="default-button">PAYEMENT</button>
                                                 </div>
                                                 <div class="contact-btn-left">
                                                     <a href="/register" id="contactBtn" class="default-button">PREVIOUS</a>

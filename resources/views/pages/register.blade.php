@@ -10,14 +10,15 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="css/styleregister.css">
 
 
     <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>-->
     <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min2.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
@@ -32,6 +33,10 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/fonts/font_awesome/css/all.css">
+    <!-- default css  -->
+    <link rel="stylesheet" href="css/default.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/newsll.css">
 </head>
 <script>
     var un = document.getElementById("un");
@@ -45,6 +50,56 @@
 </script>
 
 <body>
+
+    <script>
+            window.fbAsyncInit = function() {
+                    FB.init({
+                      appId      : '{your-app-id}',
+                      cookie     : true,
+                      xfbml      : true,
+                      version    : '{api-version}'
+                    });
+                      
+                    FB.AppEvents.logPageView();   
+                      
+                  };
+                
+                  (function(d, s, id){
+                     var js, fjs = d.getElementsByTagName(s)[0];
+                     if (d.getElementById(id)) {return;}
+                     js = d.createElement(s); js.id = id;
+                     js.src = "https://connect.facebook.net/en_US/sdk.js";
+                     fjs.parentNode.insertBefore(js, fjs);
+                   }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <!--[if lt IE 8]>
+                	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+                	<![endif]-->
+        <!-- Wrapper Start -->
+        <div class="wrapper homepage">
+            <!-- Newsletter Popup Start -->
+            <div class="popup_wrapper">
+                <div class="test">
+                    <span class="popup_off">Close</span>
+                    <div class="subscribe_area text-center mt-60">
+                        <marquee>
+                            <h4 class="text-danger font-weight-bold urgente">IMPORTANT INFORMATION</h4>
+                        </marquee>
+                        <span class="messageco">Message from DREAMLAND for all new registrant</span>
+                        <p class="textmes text-justify">The entries on Dreamland are <strong>Paying for 5000 FCFA</strong>
+                            and that gives you the right to <strong>50% discount on fees to enter.</strong>
+                            <strong class="text-danger">Please note that any customer
+                                not subscribed should pay 10,000 FCFA each time he wants to go to the center instead of 5000
+                                FCFA for those who
+                                these are subscribe.</strong>
+                        </p>
+        
+                    </div>
+                </div>
+            </div>
+            <!-- Newsletter Popup End -->
+        
+        </div>
 
     <!-- preloader -->
     <div id="preloader">
@@ -138,9 +193,9 @@
                                                             <a href="#">Xbox One Controller</a>
                                                         </h4>
                                                         <div class="cart-price">
-                                                            <span class="new">$229.9</span>
+                                                            <span class="new">2299 FCFA</span>
                                                             <span>
-                                                                <del>$229.9</del>
+                                                                <del>2299 FCFA</del>
                                                             </span>
                                                         </div>
                                                     </div>
@@ -153,7 +208,7 @@
                                                 <li>
                                                     <div class="total-price">
                                                         <span class="f-left">Total:</span>
-                                                        <span class="f-right">$239.9</span>
+                                                        <span class="f-right">2399 FCFA</span>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -372,7 +427,7 @@
                                     <div class="col-lg-6">
                                         <div class="contact-form-group">
                                             <input type="text" class="form-control" name="Captcha" id="txtInput"
-                                                placeholder="Please Enter Code *" required>
+                                                placeholder="Please Enter Code Captcha *" required>
                                             <span id="txtCaptchaSpan"></span>
                                             <input type="hidden" id="txtCaptcha">
                                             <div class="form-validate-icons">
@@ -392,7 +447,7 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="contact-btn-left">
-                                            <button type="submit" id="contactBtn" class="default-button">Send Message</button>
+                                            <button type="submit" id="contactBtn" class="default-button">NEXT</button>
                                         </div>
                                     </div>
                                 </div>
@@ -414,15 +469,102 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <p>
-                            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-                            laying out print, graphic or web designs. The passage is attributed to
-                            an unknown typesetter in the 15th century who is thought to have scrambled
-                            parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen
-                            book. It usually begins with.The placeholder text, beginning with the line
-                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit”, looks like Latin
-                            because in its youth, centuries ago, it was Latin.
-                        </p>
+                        <h3> 1. Terms</h3>
+                        By accessing this website, you are agreeing to be bound by the Terms and Conditions of Use, all applicable laws and
+                            regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree
+                            with
+                            any of these terms, you are prohibited from using or accessing this website. The content contained here are
+                            protected by
+                            applicable copyright and trade mark laws. Please take the time to review our privacy policy.
+                    
+                        
+                        <h3>2. Use License</h3>
+                        Permission is granted for the temporary use of the group chat, filemanager on web site for personal, non-commercial
+                            use
+                            only. This is the grant of the services, not a transfer of title, and under this license you may not: modify or copy
+                            the
+                            materials; use the materials for any commercial purpose, or for any public display (commercial or non-commercial);
+                            attempt to decompile or reverse engineer any software contained on the website; remove any copyright or other
+                            proprietary notations from the materials; or transfer the materials to another person or "mirror" the materials on
+                            any
+                            other website or server. This license shall automatically terminate if you violate any of these restrictions and may
+                            be
+                            terminated by the website at any time.
+                        
+                        
+                        <h3>3. Disclaimer</h3>
+                        The content on the website are provided "as is". We makes no warranties, expressed or implied, and hereby disclaims
+                            and
+                            negates all other warranties, including without limitation, implied warranties or conditions of merchantability,
+                            fitness
+                            for a particular purpose, or non-infringement of intellectual property or other violation of rights. Furthermore, We
+                            does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of
+                            the
+                            content on its website or otherwise relating to such content or on any sites linked to this site.
+                        
+                        
+                        <h3> 4. Limitations</h3>
+                        In no event shall we be liable for any damages (including, without limitation, damages for loss of data or profit,
+                            due
+                            to business interruption, or criminal charges filed against you) arising out of the use or inability to use the
+                            content
+                            on the website, even if we or a authorized representative has been notified orally or in writing of the possibility
+                            of
+                            such damage. This applies to the use of our chat rooms and filemanager. Because some jurisdictions do not allow
+                            limitations on implied warranties, or limitations of liability for consequential or incidental damages, these
+                            limitations may not apply to you.
+                    
+                        
+                        <h3>5. Revisions and Errata</h3>
+                        The materials appearing on the website could include technical, typos, or image errors. We does not warrant that any
+                            of
+                            the content on its website are accurate, complete, or current. We may make changes to the content on its website at
+                            any
+                            time without any noticeWe does not, however, make any commitment to update the content.
+                        
+                        
+                        <h3>6. Links</h3>
+                        We has not reviewed all of the sites linked from its website and is not responsible for the contents contained
+                            within.
+                            The inclusion of any link does not imply endorsement by us. Use of any such linked web site is at the user's own
+                            risk.
+                        
+                        
+                        <h3>7. Age Limitations</h3>
+                        In general, the age minimum for this webs site is 13. This website will not be held responsible for users who do not
+                            comply with the given age range as this information is not verifiable.
+                        
+                        
+                        <h3> Hateful Content</h3>
+                        We does not tolerate any form of hateful or violent content in our chat rooms or on our forums. This includes
+                            threats,
+                            promotion of violence or direct attacks towards other users based upon ethnicity, race, religion, sexual
+                            orientation,
+                            religion affiliation, age, disability, serious diseases and gender. Users also are prohibited from using hateful
+                            images
+                            for their profile pictures/avatars. This includes usernames. All such comment will be removed when noticed or
+                            reported
+                            to our staff.
+                        
+                        
+                        <h3>9. Illegal Content</h3>
+                        We does not tolerate any form of illegal content in our chat rooms or on our forums. Users also are prohibited from
+                            using or uploading illegal images including child pornography or other illegal content. This includes, but not
+                            limited
+                            to, profile pictures/avatars and any image transfers or uploads. This includes usernames. If you do so, you will be
+                            subject to being kicked, banned and, in some cases, reported to law enforcement. We will, to its highest ability,
+                            remove
+                            all illegal content when it is discovered or reported to us. We will not be held responsible for such content unless
+                            it
+                            is noticed and reported to our staff.
+                     
+                        
+                        <h3>10. Terms of Use Changes</h3>
+                        We may revise these terms of use for its web site at any time without notice. By using this web site you are agreeing
+                            to
+                            be bound by the then current version of these Terms and Conditions of Use. If you cannot agree to this, please do
+                            not
+                            use this website.
                     </div>
                     <div class="modal-footer justify-content-start">
                         <a href="#" id="termsAgree" class="popup-btn agree" data-dismiss="modal">I Agree</a>
@@ -509,6 +651,9 @@
 
     </main>
     <!-- main-area-end -->
+
+
+
 
     <!-- footer-area -->
     <footer>
@@ -640,6 +785,8 @@
     </footer>
     <!-- footer-area-end -->
 
+   
+
 
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -652,6 +799,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <!-- JS here -->
     <script src="js/vendor/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
@@ -671,11 +819,12 @@
     <script src="assets/js/jquery-3.4.0.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/custom.select.plugin.js"></script>
-    <script src="assets/js/jquery.conformy.plugin.js"></script>
+    <script src="assets/js/jquery.conformy.plugin.js"></script>-->
     <script src="assets/js/main.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIJ_QKHN-bi6_1C9f5eYE3pZs1zhQIo5o"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/main2.js"></script>
 
 
 

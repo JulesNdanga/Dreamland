@@ -247,12 +247,11 @@
                                             number.Exp. 200-255-4444</span></div>
                 
                 
-                                    <form id="contactForm" action="Api/register1.php" method="post">
+                                    <form id="contactForm" action="Api/register2.php" method="post">
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="contact-form-group">
-                                                    <input type="text" class="form-control" name="nom" id="contactName"
-                                                        placeholder="Your Last Name *" required>
+                                                    <input type="text" class="form-control" name="usern" id="usern" placeholder="Username" required>
                                                     <i class="far fa-user"></i>
                                                     <div class="form-validate-icons">
                                                         <span></span>
@@ -261,18 +260,19 @@
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="contact-form-group">
-                                                    <input type="text" class="form-control" name="prenom" id="contactName2"
-                                                        placeholder="Your First Name *" required>
+                                                    <input type="text" class="form-control" name="nomp" id="contactP"
+                                                        placeholder="PARENT/TUTOR'S NAME" required>
                                                     <i class="far fa-user"></i>
                                                     <div class="form-validate-icons">
                                                         <span></span>
                                                     </div>
                                                 </div>
                                             </div>
+                                            
                                             <div class="col-lg-6">
                                                 <div class="contact-form-group">
-                                                    <input type="text" class="form-control" name="contact_phone" id="contactPhone"
-                                                        placeholder="Phone Exp. +237659904512 *" required>
+                                                    <input type="text" class="form-control" name="contact_phoneP" id="contactPhoneP"
+                                                        placeholder="PARENT'S TELEPHONE NUMBER Exp. +237659904512 *" required>
                                                     <i class="fas fa-phone-volume"></i>
                                                     <div class="form-validate-icons">
                                                         <span></span>
@@ -281,8 +281,8 @@
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="contact-form-group">
-                                                    <input type="text" class="form-control" name="contact_email" id="contactEmail"
-                                                        placeholder="Your Email *" required>
+                                                    <input type="text" class="form-control" name="contact_emailP" id="contactEmailP"
+                                                        placeholder="MAIL ADDRESS OF THE PARENT: *" required>
                                                     <i class="far fa-envelope"></i>
                                                     <div class="form-validate-icons">
                                                         <span></span>
@@ -291,55 +291,9 @@
                                             </div>
                                             <div class="col-lg-6 ">
                                                 <div class="contact-form-group">
-                                                    <input type="date" class="form-control" name="datenaissance" id="datenaissance"
-                                                        placeholder="#" required>
-                                                    <i class="far fa-calendar"></i>
-                                                    <div class="form-validate-icons">
-                                                        <span></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 ">
-                                                <div class="contact-form-group custom-select-wrapper">
-                                                    <select name="contactGenre" class="form-control" id="contactSubject">
-                                                        <option value="Please Select">Select your gender *</option>
-                                                        <option value="M">M</option>
-                                                        <option value="F">F</option>
-                                                    </select>
-                                                    <i class="far fa-bookmark"></i>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 ">
-                                                <div class="contact-form-group">
-                                                    <input type="text" class="form-control" name="LieuNaissance" id="LieuNaiss"
-                                                        placeholder="PLACE OF BIRTH *" required>
-                                                    <i class="far fa-map"></i>
-                                                    <div class="form-validate-icons">
-                                                        <span></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 ">
-                                                <div class="contact-form-group custom-select-wrapper">
-                                                    <select name="pays" class="form-control" id="Pays">
-                                                        <option value="Please Select">Select your nationality *</option>
-                                                        <option value="afghan">Afghan</option>
-                                                        <option value="albanian">Albanian</option>
-                                                        <option value="algerian">Algerian</option>
-                                                        <option value="american">American</option>
-                                                        <option value="andorran">Andorran</option>
-                                                        <option value="cameroonian">Cameroonian</option>
-                                                        <option value="cameroonian">Other</option>
-                
-                                                    </select>
-                                                    <i class="far fa-globe"></i>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 ">
-                                                <div class="contact-form-group">
-                                                    <input type="text" class="form-control" name="LieuResid" id="LieuResid"
-                                                        placeholder="RESIDENCE ADDRESS *" required>
-                                                    <i class="far fa-map"></i>
+                                                    <input type="text" class="form-control" name="school" id="school"
+                                                        placeholder="LEVEL" required>
+                                                    <i class="far fa-school"></i>
                                                     <div class="form-validate-icons">
                                                         <span></span>
                                                     </div>
@@ -347,9 +301,8 @@
                                             </div>
                                             <div class="col-lg-6 ">
                                                 <div class="contact-form-group">
-                                                    <input type="text" class="form-control" name="usern" id="usern"
-                                                        placeholder="USERNAME *" required>
-                                                    <i class="far fa-user"></i>
+                                                    <input type="text" class="form-control" name="institute" id="institute" placeholder="FREQUENTLY INSTITUTE" required>
+                                                    <i class="far fa-school"></i>
                                                     <div class="form-validate-icons">
                                                         <span></span>
                                                     </div>
@@ -357,28 +310,21 @@
                                             </div>
                                             <div class="col-lg-6 ">
                                                 <div class="contact-form-group">
-                                                    <input type="password" class="form-control" name="password" id="password"
-                                                        placeholder="PASSWORD *" required>
-                                                    <i class="far fa-lock"></i>
+                                                    <input type="file" class="form-control" name="photo" id="photo"
+                                                        placeholder="PHOTOCOPIE NATIONAL CARD OF THE PARENT *" accept="image/*" required>
+                                                    <i class="far fa-id-badge"></i>
                                                     <div class="form-validate-icons">
                                                         <span></span>
                                                     </div>
+                                                    <label for="photo">PHOTO NATIONAL CARD OF THE PARENT *</label>
+                                                    
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6 ">
-                                                <div class="contact-form-group">
-                                                    <input type="password" class="form-control" name="ConfirmP" id="confP"
-                                                        placeholder="CONFIRM PASSWORD *" required>
-                                                    <i class="far fa-lock"></i>
-                                                    <div class="form-validate-icons">
-                                                        <span></span>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                           
                                             <div class="col-lg-6">
                                                 <div class="contact-form-group">
                                                     <input type="text" class="form-control" name="Captcha" id="txtInput"
-                                                        placeholder="Please Enter Code *" required>
+                                                        placeholder="Please Enter Code Captcha *" required>
                                                     <span id="txtCaptchaSpan"></span>
                                                     <input type="hidden" id="txtCaptcha">
                                                     <div class="form-validate-icons">
@@ -386,20 +332,13 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                         
                                             <div class="col-lg-12">
-                                                <div class="contact-form-group">
-                                                    <div class="custom-control custom-checkbox d-flex align-items-center">
-                                                        <input type="checkbox" class="custom-control-input" id="termsCheckBox">
-                                                        <label class="custom-control-label" for="termsCheckBox"></label>
-                                                        <span>I accepted <a href="#" data-toggle="modal" data-target="#termsModal"
-                                                                id="termssToggle">Terms &
-                                                                Conditions</a></span>
-                                                    </div>
+                                                <div class="float-right">
+                                                    <button type="submit" id="contactBtn" class="default-button">NEXT</button>
                                                 </div>
-                                            </div>
-                                            <div class="col-lg-12">
                                                 <div class="contact-btn-left">
-                                                    <button type="submit" id="contactBtn" class="default-button">Send Message</button>
+                                                    <a href="/register" id="contactBtn" class="default-button">PREVIOUS</a>
                                                 </div>
                                             </div>
                                         </div>
